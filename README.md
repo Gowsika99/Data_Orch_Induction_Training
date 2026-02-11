@@ -1,3 +1,5 @@
-# Data_Orch_Induction_Training
+# Data\_Orch\_Induction\_Training
+
 GIT Handson
-Conflict 1
+Git Conflict 1
+
