@@ -4,3 +4,7 @@ def start_app():
     print("App Status:", app_state["status"])
 
 from quiz_data import add_quiz, quizzes
+
+app_state["quizzes"] = len(quizzes)
+
+print(app_state)
