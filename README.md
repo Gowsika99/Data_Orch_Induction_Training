@@ -1,5 +1,10 @@
 # Data\_Orch\_Induction\_Training
 
+# Table of Contents
+- About the Project
+- System Components
+- Usage Examples
+
 # About the Project
 <
 This repository is part of the Data Orch Induction Training Program where multiple team members collaborate to build a small modular application using Python and Git.
@@ -48,3 +53,5 @@ Usage Examples
 
 ## DIR Structure
 <Show the directory structure>
+
+
