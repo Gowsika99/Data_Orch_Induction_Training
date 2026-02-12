@@ -1,8 +1,9 @@
 # APPLICATION STATE
 import Utils
 app_state = {"status": "initialized", "users": 0, "quizzes": 0, "score":0}
+# Entry point of the application
 def start_app():
-    
+    print("Welcome to Quiz Engine")
  # Take inputs from the user (username as key, score as value)
     user_name = input("Enter username: ").strip()
     score = input("Enter score (integer): ")
@@ -16,5 +17,4 @@ def start_app():
 
     print("App Status:", app_state["status"])
     print("Score:", app_state["score"])
-
-    
+main
