@@ -1,4 +1,4 @@
-users = ["Arthur", "John", "Joel", "Deacon", "Edward"]
+users = []
 
 
 def add_user(name: str) -> list[str]:
