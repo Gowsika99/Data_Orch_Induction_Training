@@ -1,9 +1,6 @@
 
 # User Management
-from users import users, add_user
-
-def latest_user():
-    return users[-1]
+from users import users, add_user, remove_user
 
 # Dummy names
 add_user("Kenway")
@@ -18,9 +15,8 @@ app_state = {"status": "initialized", "users": 0, "quizzes": 0}
 app_state["users"] = len(users)
 def start_app():
     print("App Status:", app_state["status"])
-    print(f"Hello {latest_user} , welcome to the app")
+    print(f"Hello {users[-1]} , welcome to the app")
 
-start_app()
 
 
 
