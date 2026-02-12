@@ -17,4 +17,4 @@ def start_app():
 
     print("Welcome to Quiz Engine")
     print("Score:", app_state["score"])
-main
+
