@@ -1,6 +1,6 @@
 users = []
 
-
+# Add user 
 def add_user(name: str) -> list[str]:
     try:
         if name.lower().startswith("adm"):
@@ -12,7 +12,13 @@ def add_user(name: str) -> list[str]:
         print(f"Invalid username '{name}': {e}")
 
 
+# Remove User
+def remove_user(users):      
+    if not users:              # Empty list
+        return None, users
 
-    # Adds a user to the users list and returns the updated list
+    removed = users.pop()      # Remove last user
+    return removed, users      # Return removed item + updated list
+  
     
 
