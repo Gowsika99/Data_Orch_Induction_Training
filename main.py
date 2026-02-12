@@ -15,6 +15,6 @@ def start_app():
 # Set app_state["scores"] to the score of the user you just updated
     app_state["scores"] = Utils.score_board.get(user_name, 0)
 
-    print("App Status:", app_state["status"])
+    print("Welcome to Quiz Engine")
     print("Score:", app_state["score"])
-main
+
