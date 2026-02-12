@@ -1,13 +1,13 @@
 # APPLICATION STATE
-app_state = {"status": "initialized", "users": 0, "quizzes": 0}
-def start_app():
-    print("App Status:", app_state["status"])
+state = {"status": "initialized", "users": 0, "quizzes": 0}
+def app():
+    print("App Status:", state["status"])
 
 from quiz_data import add_quiz, quizzes
 
-app_state["quizzes"] = len(quizzes)
+state["quizzes"] = len(quizzes)
 
-print(app_state)
+print(state)
 
 from quiz_data import quizzes  # we only need the data to display
 
