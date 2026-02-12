@@ -1,7 +1,20 @@
+
+# User Management
+from users import users, add_user, remove_user
+
+# Dummy names
+add_user("Kenway")
+add_user("John")
+add_user("Arthur")
+add_user("Edward")
+add_user("Deacon")
+
+
 # APPLICATION STATE
 import Utils
 app_state = {"status": "initialized", "users": 0, "quizzes": 0, "score":0}
 # Entry point of the application
+app_state["users"] = len(users)
 def start_app():
     print("Welcome to Quiz Engine")
  # Take inputs from the user (username as key, score as value)
