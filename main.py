@@ -11,8 +11,9 @@ add_user("Deacon")
 
 
 # APPLICATION STATE
+
 import Utils
-app_state = {"status": "initialized", "users": 0, "quizzes": 0, "score":0}
+app_state = {"app_status": "initialized", "users": 0, "quizzes": 0, "score":0}
 # Entry point of the application
 app_state["users"] = len(users)
 def start_app():
@@ -29,6 +30,7 @@ def start_app():
 # Set app_state["scores"] to the score of the user you just updated
     app_state["scores"] = Utils.score_board.get(user_name, 0)
 
-    print("App Status:", app_state["status"])
+    print("Welcome to Quiz Engine")
     print("Score:", app_state["score"])
-# main
+
+
