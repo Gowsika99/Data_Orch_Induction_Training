@@ -13,8 +13,8 @@ add_user("Deacon")
 # APPLICATION STATE
 
 import Utils
-app_state = {"app_status": "initialized", "users": 0, "quizzes": 0, "score":0}
 # Entry point of the application
+app_state = {"app_status": "initialized", "users": 0, "quizzes": 0, "score":0}
 app_state["users"] = len(users)
 def start_app():
     print("Welcome to Quiz Engine")
